@@ -16,5 +16,6 @@ public class pais {
     int idnumVuelo;
     @Column
     String nom;
-
+    @Column
+    String estado;
 }
