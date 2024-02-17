@@ -16,5 +16,4 @@ public class pais {
     int idnumVuelo;
     @Column
     String nom;
-
 }

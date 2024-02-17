@@ -11,4 +11,6 @@ import java.util.List;
 public interface PaisesRepository extends JpaRepository <pais, Long> {
 
     public List<pais> findAll();
+
+    public pais findById (Integer id);
 }
